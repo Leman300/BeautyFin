@@ -21,6 +21,6 @@ useHead({
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap");
-@import url("./src/assets/scss/styles.scss");
+@import url("./src/scss/styles.scss");
 @import "primeicons/primeicons.css";
 </style>
