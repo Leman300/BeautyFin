@@ -1,22 +1,22 @@
 <template>
   <MainLayout>
     <div id="IndexPage" class="h-screen pb-12">
-      <NuxtImg
+      <img
         oncontextmenu="return false;"
         class="absolute object-cover w-full h-screen -z-10"
         format="webp"
         sizes="sm:100px md:300px lg:900px"
-        src="../public/img/mesh-gradient.jpeg"
+        src="/static/img/mesh-gradient.jpeg"
         alt=""
       />
 
       <div
         class="wrapper flex flex-col lg:flex-row items-center justify-center h-full my-auto"
       >
-        <NuxtImg
+        <img
           class="lg:order-1 pr-6 lg:mx-0 w-[14em] sm:w-[15em] md:w-[18em] lg:w-[19em] woman-blob shadow-2xl shadow-amber-100"
           format="webp"
-          src="../public/img/model-mobile.jpg"
+          src="/static/img/model-mobile.jpg"
           alt="Woman model holding lipstick"
         />
 
