@@ -1,0 +1,45 @@
+@use "./colors" as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  &-track {
+    background: #e4e4e4;
+  }
+  &-thumb {
+    background: #fecfd6;
+    border-radius: 4px;
+  }
+}
+
+.nanum-font {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.woman-blob {
+  border-radius: 60% 40% 52% 48% / 67% 40% 60% 33%;
+  background-size: cover;
+  background-position: center center;
+}
