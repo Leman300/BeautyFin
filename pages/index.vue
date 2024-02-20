@@ -5,7 +5,7 @@
       <img
         oncontextmenu="return false;"
         class="absolute object-cover w-full h-screen -z-10"
-        src="/static/img/mesh-gradient.jpeg"
+        src="/src/assets/mesh-gradient.jpeg"
         alt=""
       />
 
@@ -14,7 +14,7 @@
       >
         <img
           class="lg:order-1 pr-6 lg:mx-0 w-[14em] sm:w-[15em] md:w-[18em] lg:w-[19em] woman-blob shadow-2xl shadow-amber-100"
-          src="/static/img/model-mobile.jpg"
+          src="/src/assets/model-mobile.jpg"
           alt="Woman model holding lipstick"
         />
 
