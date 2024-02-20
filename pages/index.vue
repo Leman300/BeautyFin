@@ -6,7 +6,7 @@
         class="absolute object-cover w-full h-screen -z-10"
         format="webp"
         sizes="sm:100px md:300px lg:900px"
-        src="../public/image/mesh-gradient.jpeg"
+        src="../public/img/mesh-gradient.jpeg"
         alt=""
       />
 
@@ -16,7 +16,7 @@
         <NuxtImg
           class="lg:order-1 pr-6 lg:mx-0 w-[14em] sm:w-[15em] md:w-[18em] lg:w-[19em] woman-blob shadow-2xl shadow-amber-100"
           format="webp"
-          src="../public/image/model-mobile.jpg"
+          src="../public/img/model-mobile.jpg"
           alt="Woman model holding lipstick"
         />
 
