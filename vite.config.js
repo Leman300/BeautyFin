@@ -5,6 +5,9 @@ import { ViteSSG } from "vite-ssg"
 import Vue from "@vitejs/plugin-vue"
 
 export default defineConfig({
+  build: {
+    base: "/BeautyFin/dist/assets/",
+  },
   plugins: [
     Vue(),
     vitePages(),
@@ -14,7 +17,7 @@ export default defineConfig({
     {
       name: "vite-plugin-gh-pages",
       options: {
-        base: "/BeautyFin/", 
+        base: "/BeautyFin/",
       },
     },
   ],

@@ -4,7 +4,7 @@
       <img
         oncontextmenu="return false;"
         class="absolute object-cover w-full h-screen -z-10"
-        format="webp"
+        format="avif"
         sizes="sm:100px md:300px lg:900px"
         src="/static/img/mesh-gradient.jpeg"
         alt=""
